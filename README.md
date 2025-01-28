@@ -2,9 +2,11 @@
 
 
 **Overview**
+
 This is a Django-based web application that includes user authentication features such as sign-up, login, password management, and restricted pages for logged-in users. The app provides a clean and simple interface to handle user accounts.
 
 **Bootstrap**
+
 Use Bootstrap for formating the templates.
 
 **Features**
