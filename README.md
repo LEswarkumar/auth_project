@@ -1,37 +1,52 @@
-Django User Authentication Application
-Overview
+**Django User Authentication Application**
+
+
+**Overview**
 This is a Django-based web application that includes user authentication features such as sign-up, login, password management, and restricted pages for logged-in users. The app provides a clean and simple interface to handle user accounts.
 
-Bootstrap
+**Bootstrap**
 Use Bootstrap for formating the templates.
 
-Features
-Sign Up:
+**Features**
+**Sign Up:**
 
 Users can register with a username, email, and password.
 Automatic login after successful registration.
-Login:
+
+**Login:**
 
 Allows users to log in using their username or email and password.
-Forgot Password:
+
+**Forgot Password:**
 
 Users can request a password reset via email.
-Change Password:
+
+**Change Password:**
 
 Authenticated users can update their password.
-Dashboard:
+
+**Dashboard:**
 
 Restricted to logged-in users. Displays a greeting and links to profile and logout.
-Profile:
+
+**Profile:**
 
 Shows user details (username, email, date joined, etc.). Restricted to logged-in users.
-Logout:
+
+**Logout:**
 
 Logs the user out and redirects to the homepage.
-Application Flow
-Homepage:
+
+**Application Flow**
+
+**Homepage:**
+
 Accessible to everyone.
-Authentication Pages:
+
+**Authentication Pages:**
+
 Sign Up, Login, and Forgot Password.
-Restricted Pages:
+
+**Restricted Pages:**
+
 Dashboard and Profile (only accessible to authenticated users).
